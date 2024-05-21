@@ -5,6 +5,6 @@ for i in range(len(b)):
     sum += int(b[i]) * int(k.index(a))**(len(b)-i-1)
 answer = ''
 while sum > 0:
-    answer = str(sum%int(c)) + answer
+    answer = k[sum%int(c)] + answer
     sum //= int(c)
 print(answer)
