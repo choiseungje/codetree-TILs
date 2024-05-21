@@ -6,5 +6,5 @@ for i in range(len(b)):
 answer = ''
 while sum > 0:
     answer = str(sum%int(k.index(c))) + answer
-    sum //= int(k.index(c))
+    sum //= int(c)
 print(answer)
