@@ -3,7 +3,6 @@ k = list(map(int,input().split()))
 try:
     p = k.index(a)
     k = k[p:]
-finally:
     answer = 0
     while True:
         if a in k:
@@ -12,3 +11,5 @@ finally:
         else:
             break
     print(answer)
+except:
+    print(0)
