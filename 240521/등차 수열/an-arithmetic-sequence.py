@@ -1,7 +1,8 @@
 n,a,b = map(int,input().split())
 k = list(map(int,input().split()))
-p = k.index(a)
-k = k[p:]
+try:
+    p = k.index(a)
+    k = k[p:]
 answer = 0
 while True:
     if a in k:
