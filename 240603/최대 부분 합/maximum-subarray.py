@@ -11,4 +11,4 @@ for i in b:
     else:
         lst.append(count)
         count = 0
-print(count)
+print(max(lst))
